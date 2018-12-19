@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>EPEC PROJECT ONE</title>
+    <link rel="stylesheet" href="css/master.css">
+  </head>
+  <body>
+
+    <div class="container">
+       <p id="p-linkes">Links</p>
+    </div>
+    <img id="img-meto" src="images/img-meto.png" alt="">
+
+
+  <div class="div_content">
+      <h1 id="demoTime">JavaScript getHours()</h1>
+      <h2 id="h2-title">Good afternoon, Drmas.</h2>
+      <p id="p-whatus">What is your main focus for today?</p>
+      <h3 id="h3_heading">Learn HTML&CSS</h3>
+      <hr>
+      <span>Press enter to set your focus</span>
+  </div>
+
+
+  <div class="footer">
+    <img id="img-tools" src="images/img-footer.png" alt="">
+     <span id="span-linkes">  Silverthorne, CO, United States <br> Photo by Nathan Anderson/Unsplash</span>
+    <p id="p-one-day">"One day you will wake up and there won't be any more time <br> to do the things you've always wanted. Do it now."</p>
+   <strong id="todo">Todo</strong>
+  </div>
+
+<script>
+var d = new Date();
+document.getElementById("demoTime").innerHTML =  d.getHours() + ":" +  d.getMinutes();
+</script>
+
+  </body>
+</html>

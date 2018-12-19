@@ -1,0 +1,96 @@
+
+.container { //or use a custom class like .custom-container
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-top: 30px;
+  width: 70%;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVpHv1IrXFXGVSl4GJOwBU4IPPtFL62OOkE6iwwJdHq_8w6St_0Q"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+/* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  padding: 40px 100px;
+  box-shadow: 5px 10px 20px #e74c3c inset;
+}
+
+@media (max-width: 700px){
+  .container {
+   width: auto;
+   padding: 0
+  }
+}
+@media (max-width: 700px){
+  .content{
+   width: auto;
+   padding: 10px;
+  }
+}
+
+.container .col-lg-6 {
+  background: #FFF;
+}
+.content h5{
+margin-top: 30px;
+margin-bottom: 20px;
+text-align: center;
+font-size: 18px;
+color: #888;
+}
+.content h6{
+text-align: center;
+margin-top: 10px;
+color: #393939;
+font-size: 14px;
+}
+.content label{
+  color: #bababa;
+  font-size: 12px;
+}
+.img-right{
+  margin-top: -4px
+}
+@media (max-width: 700px){
+  .img-right{
+   width: 100%;
+   margin-top: 30px;
+   margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1200px){
+  .img-right{
+   width: 100%;
+   margin-top: 30px;
+   margin-bottom: 20px;
+  }
+}
+@media (max-width: 700px){
+  .div-content{
+   text-align: center;
+  }
+}
+@media (max-width: 700px){
+  .img-left{
+   margin-left: 0;
+  }
+}
+
+.img-left{
+  margin-left: 110px;
+}
+.btn-danger{
+  border-radius: 20px;
+  border-radius: 20px;
+  background: #f05f6c !important;
+}
+.btn-danger i{
+  margin-right: 5px;
+}
+hr{
+  margin-top: 40px;
+}
+.img-google{
+  width: 20px;
+  height: 20px;
+}

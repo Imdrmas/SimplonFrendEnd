@@ -1,0 +1,75 @@
+body{
+  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/GfRLKaE/videoblocks-4k-night-sky-clouds-stars-galaxy-universe-background_bj7v4h7iz_thumbnail-full01.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 600px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+#p-linkes{
+  color: #FFF;
+  margin-left: 20px;
+}
+.container{
+  display: flex;
+  position: relative;
+
+}
+#img-meto{
+  float: inline-end;
+  margin-top: -50px;
+}
+h1{
+  color: #FFF;
+  font-size: 130px;
+  margin-bottom: 0px;
+}
+.div_content{
+  text-align: center;
+  color: #FFF;
+}
+#h2-title{
+  font-size: 30px;
+  margin-bottom: 35px;
+  margin-top: -15px;
+}
+#p-whatus{
+  font-size: 30px;
+  margin-bottom: -10px;
+}
+#h3_heading{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+hr{
+  margin: 0 25% 0 25%;
+  color: #fff;
+  margin-bottom: 15px;
+}
+span{
+  font-size: 20px;
+}
+#span-linkes{
+  color: #BCBCBC;
+  font-size: 12px;
+}
+.footer{
+  display: flex;
+  position: relative;
+  margin-top: 140px;
+}
+#p-one-day{
+  color: #fff;
+  text-align: center;
+  margin-left: 250px;
+  margin-top: -4px;
+}
+#todo{
+  color: #BCBCBC;
+  margin-left: 367px;
+}
+#img-tools{
+  width: 24px;
+  height: 24px;
+  padding-right: 3px;
+}

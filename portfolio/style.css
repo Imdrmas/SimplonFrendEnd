@@ -1,0 +1,28 @@
+body{
+  text-align: center;
+  background: #DDD;
+}
+h1{
+  color: #d35400;
+  font-family: Tohoma;
+}
+.red-title{
+  color: red;
+}
+.div-left p{
+  text-align: left;
+  margin: 0 25% 0 25%;
+  color: #777;
+  font-size: unset;
+}
+#subtitle{
+  font-weight: bold;
+  color: blue;
+}
+#div-title{
+  text-decoration: underline;
+}
+hr{
+  margin: 0 25% 0 25%;
+  color: burlywood;
+}

@@ -1,0 +1,188 @@
+.scroll-to-top{
+  background:  #009fab;
+  color: #FFF;
+  display: block;
+  padding: 0px 5px 5px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: none;
+}
+.navbar-toggle {
+  float: left !important;
+  margin-left: 15px;
+  margin-right: 0;
+  display: block;
+}
+.navbar-collapse.collapse {
+    display: none !important;
+}
+.modal-nav-content {
+  width: 100%;
+  height: auto;
+}
+.navbar-inverse .navbar-toggle{
+  border-color: #000;
+  color: #FFF !important;
+  background: #000 !important;
+}
+.navbar-inverse .navbar-brand{
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+.navbar-inverse{
+  background-color: #000;
+  border-color: #000;
+  padding: 15px;
+}
+.modal-nav-body {
+  margin-top: 100px;
+}
+.modal-open .modal{
+  background: #141313;
+  cursor: crosshair;
+}
+.modal-nav-body ul {
+  list-style-type: none;
+  color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.modal-nav-body ul li {
+  text-align: center;
+  padding: 5px;
+  font-family: 'Patua One';
+  font-size: 30px;
+  font-weight: 900;
+}
+.sociale-media{
+  text-align: center;
+  margin-top: 40px;
+}
+.sociale-media .fa {
+  padding: 20px;
+  font-size: 22px;
+  width: 22px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    color: #FFF;
+}
+
+.fa-facebook {
+  background: #141313;
+  color: #d2dae2;
+  font-size: 20px;
+}
+
+.fa-twitter {
+  background: #141313;
+  color: #d2dae2;
+}
+
+.fa-pinterest {
+  background: #141313;
+  color: #d2dae2;
+}
+
+.fa-instagram {
+  background: #141313;
+  color: #d2dae2;
+}
+.sociale-media p{
+  color: #777;
+  font-family: 'News Cycle';
+  font-size: 18px;
+}
+.sociale-media p span{
+font-size: 28px;
+padding-top: 50px;
+}
+.my-first-container{
+  margin-top: 150px;
+}
+.my-first-container #p-hello{
+  font-family: 'Orienta';
+  font-size: 30px;
+  color: rgb(51, 51, 51);
+}
+.my-first-container h1{
+  font-size: 40px;
+  color: #000;
+  font-weight: bold;
+}
+.my-first-container #p-content{
+ font-family: 'Nanum Myeongjo';font-size: 18px;
+}
+.my-first-container .btn-default{
+  border-radius: 30px;
+  padding: 15px 35px;
+  font-size: 16px;
+  margin-top: 28px;
+  border-color: #000 !important;
+}
+.my-first-container .btn-default:hover{
+  border-radius: 30px;
+  background: #FFF;
+  border-color: #888!important;
+  -webkit-transition:padding 0.3s ease;
+  -moz-transition:padding 0.3s ease;
+  -o-transition:padding 0.3s ease;
+  transition:padding 0.3s ease;
+  padding-left: 15px;
+
+}
+.my-first-container span{
+  visibility: hidden;
+}
+.my-first-container .btn-default:hover span{
+  visibility: visible;
+  font-size: 10px;
+  width: 10px;
+  padding-left: 8px;
+-webkit-transition:padding 0.3s ease;
+-moz-transition:padding 0.3s ease;
+-o-transition:padding 0.3s ease;
+transition:padding 0.3s ease;
+}
+.shuffle{
+  background: #f7f7f7 !important;
+  height: 800px;
+  margin-top: 160px;
+  text-align: center;
+}
+.center-navbar{
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.pill-nav a {
+  display: inline-block;
+  color: #888;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+}
+.pill-nav a.active {
+  color: #000;
+  text-decoration: underline;
+}
+.shuffle .center-navbar .pill-nav a:hover{
+  color: #000;
+  text-decoration: underline;
+}
+.block{
+  min-height: 1200px;
+  background: #f7f7f7 !important;
+  margin-bottom: 20px;
+  padding: 80px 0;
+  width: 100%;
+  height: 100%;
+}
